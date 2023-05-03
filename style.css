@@ -1,0 +1,22 @@
+.contenedor{
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    /*grid-template-columns: 100px 200px 300px; /*crea columnas con sus tamños respectivos (en este caso crea 3 columnas)*/
+    /*Este se utiliza en caso de saber la cantidad de fila*/
+    /*grid-template-rows: 150px 250px;/*dar tamaño a la primera fila y la segunda fila*/
+
+    /*en caso de no saber la cantidad de usa lo siguiente*/
+    grid-template-rows: 100px 200px;
+    grid-auto-columns: 100px;
+    grid-auto-flow: column; /*llena*/
+    /*row-gap: 15px; /*dar espacio entre una fila u otra*/
+    /*column-gap: 30px; /*dar espacio entre una columna a otra*/
+
+    gap: 40px;/*para dar espacio en forma uniforme tanto para filas como columnas*/
+}
+
+.item{
+    border: 5px solid #00bcd4;
+    font-size: 4rem;
+}
