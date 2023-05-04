@@ -1,0 +1,15 @@
+.contenedor{
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid; 
+    /*grid-template-columns: repeat(4, 1fr);*/
+    /*min-content => toma el minimo de ancho para que el contenido quede bien dentro de ella*/
+    /*max-content => toma el maximo de ancho para que el contenido quede bien dentro de ella*/
+    grid-template-columns: 1fr 3fr min-content 2fr;
+}
+
+.item{
+    border: 5px solid teal;
+    font-size: 2rem;    
+}
+  
