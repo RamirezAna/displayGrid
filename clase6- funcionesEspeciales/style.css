@@ -1,0 +1,16 @@
+.contenedor{
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid; 
+    /*indicamos con minmax(), que cual es el tamaño minimo y el maxomo de la columna*/
+    grid-template-columns: minmax(30px, 300px) 200px minmax(60px, 250px);
+    /*con el repeat(), lo que hace es repetir en las 3 filas el tamaño, en este caso auto porque queremos que se ajuste al contenido*/
+    grid-template-rows: repeat(3, auto); 
+    place-content: center; 
+}
+
+.item{
+    border: 5px solid teal;
+    font-size: 2rem;    
+}
+  
